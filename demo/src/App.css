@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  height: 100vh;
+}
+
+.App-header {
+  margin-left:20px;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.some-indicators {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.title-indicators {
+  color: white;
+}
+
+.led {
+  width:200px
+}
