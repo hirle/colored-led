@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Colored Led",
+  "name": "Colored Led Demo",
   "icons": [
     {
       "src": "favicon.ico",

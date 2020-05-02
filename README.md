@@ -16,4 +16,4 @@ The size is driven by container.
 
 ## Demo
 
-Watch this demo [https://github.io/]
+[Watch this demo](https://hirle.github.io/colored-led/demo/build/)
