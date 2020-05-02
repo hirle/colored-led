@@ -25,7 +25,7 @@ const ColoredLed = ({ color }: ColoredLedProps) => {
                 <stop offset="0" stopOpacity="0.992188" stopColor={baseColor.toString()} />
                 <stop offset="1" stopOpacity="0.988281" stopColor={hslLDivTwo.toString()} />
             </linearGradient>
-            <linearGradient spreadMethod="pad" y2="1" x2="1" y1="0" x1="0" id="reflect">
+            <linearGradient spreadMethod="pad" y2="1" x2="1" y1="0" x1="0" id={reflectId}>
                 <stop offset="0" stopOpacity="0.996094" stopColor="white" />
                 <stop offset="0.703125" stopOpacity="0.984375" stopColor={hslSMinus6.toString()} />
             </linearGradient>
