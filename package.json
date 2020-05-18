@@ -1,0 +1,45 @@
+{
+  "name": "colored-led",
+  "version": "1.0.0",
+  "description": "Nice round indicator light with programmable color.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc --jsx react",
+    "prepare": "npm run build",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hirle/colored-led.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "Hirle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hirle/colored-led/issues"
+  },
+  "homepage": "https://github.com/hirle/colored-led#readme",
+  "dependencies": {
+    "@types/color": "^3.0.1",
+    "@types/react": "^16.9.34",
+    "@types/node": "^12.12.37",
+    "@types/react-color": "^3.0.1",
+    "@types/react-dom": "^16.9.7",
+    "color": "^3.1.2",
+    "react-color": "^2.18.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.9.1",
+    "jest": "24.8.0",
+    "typescript": "^3.7.5"
+  }
+}
