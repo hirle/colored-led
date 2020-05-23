@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { SketchPicker, ColorResult } from 'react-color'
-import ColoredLed from './ColoredLed';
+import ColoredLed from 'colored-led';
 
 
 class App extends React.Component<{}, { color: string }> {
