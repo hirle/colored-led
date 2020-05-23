@@ -1,7 +1,6 @@
 import React from 'react';
 import ColoredLed from '../ColoredLed';
 import { create } from 'react-test-renderer';
-import util from 'util';
 
 describe('ColoredLed', () => {
     it('should display a red indicator light', () => {
