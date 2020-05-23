@@ -1,17 +1,16 @@
 {
   "name": "colored-led",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A React component that renders a round indicator light, its color is programmable",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "./lib/ColoredLed.js",
+  "types": "./lib/ColoredLed.d.ts",
   "files": [
-    "/dist"
+    "/lib"
   ],
   "scripts": {
     "build": "tsc --jsx react",
     "prepare": "npm run build",
-    "test": "jest",
-    "coverage": "jest --coverage"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",

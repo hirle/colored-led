@@ -6,11 +6,14 @@ cache:
 node_js:
     - "10"
 
+install:
+  - npm install
+
 addons:
   sonarcloud:
     organization: "hirle-github"
     token:
-      secure: "**************************"
+      secure: "WdbFYLi7Z4us82XIUCNU+bWPgCEc8Qw9bMoWYzECAe+vdAZsAaaBW0jdHIIc/DT5SFHDhaw1SI265rLsnCik6mwVHj1K9l8uKMHbSMf/kDr/l87VJmsjyPWKufR9sQwR0xcBYPxYAMopIWS50mW3qJK0PtY2lLnjM9Z+qOzE7OJ98tyYrZ9EHO3Mhkc2x8Mbez8dBF5fK+yQ2QwP0alkeGNgYAGyTWO5DYHMCjn1o9W+3QvQFtSOTdV0tzAon9D2T5eP6X1jX0XkJnhwoz8ajvnidQan6SPhgeQL45RZKm6d+B0T6+G8fF0TkdoHXgwPYRLR8Y+45PEFOKybAnjVlFA2kSsGvIwmeDBj/aOK8YH66JGBt+oBYEKNtMwx1Vwh7AhfEpMjrg6pgzVjZjgE8SR3Zn/aS+3WsaMhIGYmkbmeMV+Ro5DJVOTZS7+1226qVFuFwB1MLqqgIul5vGZQSRyrNvSELOGa/2XWZA4YESLwhFDnWfHxO9417hsefhwcvC0VLJpeGgG+cYTgasRi4vEKuLvbtKjdftAgSLAiXg6Jf6EAyfC/I16VP2f8BcXgVW1Z95r84ULxf1LsvcpzM7rBZA1ugYkl22aVOPKBtuEYef3jqwXc+rGzyILvm5iK2E61WM4nD2L/MEa2roKGWgNPmypVREHV9s/klq6ZGuU="
 
 script:
-  - sonar-scanner
+  - npm run test && sonar-scanner
