@@ -5,7 +5,7 @@ type ColoredLedProps = {
     color: string
 }
 
-const ColoredLed = ({ color }: ColoredLedProps) => {
+const ColoredLed: React.StatelessComponent<ColoredLedProps> = ({ color }: ColoredLedProps) => {
 
     const baseColor = Color(color);
 
