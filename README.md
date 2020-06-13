@@ -4,14 +4,20 @@ A React component that renders a round indicator light, its color is programmabl
 
 ## Usage
 
-`npm install ColoredLed`
+`npm install --save ColoredLed`
 
 Include it in your project:
 `
-<ColoredLed color="red" />
+import ColoredLed from 'colored-led';
+`
+...
+`
+<div style="height:64px; width:64px;">
+  <ColoredLed color="red" />
+</div>
 `
 
-Its size is driven by container.
+The size of its container drives the size of the ColoredLed.
 
 ## Demo
 
