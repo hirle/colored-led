@@ -6,7 +6,7 @@ A React component that renders a round indicator light, its color is programmabl
 
 ## Usage
 
-`npm install --save ColoredLed`
+`npm install --save colored-led`
 
 Include it in your project:
 
